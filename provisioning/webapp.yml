@@ -8,18 +8,18 @@
     - webapp.deploy
     - nginx
     - mysql
-    - golang
+    # - golang
     # - perl
     # - php
-    - ruby
+    # - ruby
     # - python
     # - nodejs
     - webapp.mysql
     - webapp.golang
     # - webapp.perl
     # - webapp.php
-    - webapp.ruby
-    # - webapp.python
+    # - webapp.ruby
+    - webapp.python
     # - webapp.nodejs
     - nginx.certs
     - webapp.nginx
