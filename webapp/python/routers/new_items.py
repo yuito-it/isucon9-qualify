@@ -5,7 +5,7 @@ from database import get_db
 
 router = APIRouter()
 
-@router.get("/new_items")
+@router.get("/new_items.json")
 async def get_new_items(
             item_id: int = 0,
             created_at: int = 0,
