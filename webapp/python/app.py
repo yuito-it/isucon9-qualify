@@ -48,7 +48,6 @@ class Constants(object):
     ITEMS_PER_PAGE = 48
     TRANSACTIONS_PER_PAGE = 10
 
-
 class HttpException(Exception):
     status_code = 500
 
