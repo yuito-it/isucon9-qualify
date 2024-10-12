@@ -19,8 +19,10 @@ async def initalize(
             item: Item,
             db: Session = Depends(get_db)
         ):
-    config = config(name="payment_service_url", value=item.payment_service_url)
-    db.add(config)
+    shipment = config(name="shipment_service_url", value=item.shipment_service_url)
+    payment = config(name="payment_service_url", value=item.payment_service_url)
+    db.add(shipment)
+    db.add(payment)
     return {
         "campaign": 0,
         "language": "python"
