@@ -21,4 +21,4 @@ requests
 aiomysql
 sqlalchemy
 fastapi
-dotenv
+python-dotenv
