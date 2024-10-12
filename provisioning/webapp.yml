@@ -12,10 +12,10 @@
     # - perl
     # - php
     # - ruby
-    # - python
+    - python
     # - nodejs
     - webapp.mysql
-    - webapp.golang
+    # - webapp.golang
     # - webapp.perl
     # - webapp.php
     # - webapp.ruby
@@ -36,4 +36,4 @@
       with_items:
         - nginx.service
         - mysql.service
-        - isucari.golang.service
+        - isucari.python.service
