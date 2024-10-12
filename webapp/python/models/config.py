@@ -4,6 +4,6 @@ from ..database import Base
 
 
 class Config(Base):
-    __tablename__ = "Congifs"
+    __tablename__ = "congifs"
     name = Column(String, primary_key=True, index=True)
     value = Column(String)
