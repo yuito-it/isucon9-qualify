@@ -6,8 +6,8 @@ from ..models import config
 from pydantic import BaseModel
 
 router = APIRouter(
-    prefix="/apps",
-    tags=["apps"],
+    prefix="/initialize",
+    tags=["initialize"],
 )
 
 class Item(BaseModel):
